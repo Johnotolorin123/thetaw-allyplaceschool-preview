@@ -418,8 +418,7 @@ textarea {
 }
 
 .navbar-logo {
-    height: auto; /* Adjust as needed */
-    width: 70px;
+    max-height: 50px; /* Adjust as needed */
     margin-right: 10px; /* Adjust as needed */
 }
 
@@ -432,22 +431,7 @@ textarea {
     font-size: 1.25rem; /* Adjust as needed */
     font-weight: bold;
 }
-/* Responsive styles for logo and header name */
-.logo {
-    max-height: 50px;
-}
 
-.navbar-brand span {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #000;
-}
-
-@media (max-width: 768px) {
-    .navbar-brand span {
-        font-size: 1.25rem;
-    }
-  }
 
 fieldset {
   min-width: 0;
